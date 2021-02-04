@@ -1,8 +1,7 @@
-import './App.css';
 import { Container, Row, Col } from 'react-bootstrap'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import React, { useState } from 'react';
 import Lights from './components/lights.js'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 
 const App = () => {
     return (
