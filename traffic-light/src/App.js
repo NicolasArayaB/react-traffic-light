@@ -2,20 +2,7 @@ import './App.css';
 import { Container, Row, Col } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { useState } from 'react';
-
-const Lights = (props) => {
-    const [color, setColor] = useState(true);
-    const [selected, setSelected] = useState(false)
-    const className = (color ? `${props.color}` : "" ) + " light" + (selected ? "selected" : "");
-    
-
-
-    return <Row>
-            <Col>
-                <div onClick={() => this.setState(selected ? false : true)} className={className} />
-            </Col>
-        </Row>
-}
+import Lights from './components/lights.js'
 
 const App = () => {
     return (
