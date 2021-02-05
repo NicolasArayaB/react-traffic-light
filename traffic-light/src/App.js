@@ -5,19 +5,14 @@ import './App.css';
 
 const App = () => {
     return (
-    <Container>
-        <Row>
-        <Col className="trafficTop" />
-        </Row>
-        <Row>
-            <Container className="trafficBody">
-                <Lights color="red" />
-                <Lights color="yellow" />
-                <Lights color="green" />
-            </Container>
-        
-        </Row>
-    </Container>
+        <Container>
+            <Row>
+            <Col className="trafficTop" />
+            </Row>
+            <Row>
+                <Lights />
+            </Row>
+        </Container>
     )
 }
 
